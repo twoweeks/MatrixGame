@@ -1,0 +1,52 @@
+﻿Build started 12.06.2012 0:27:26.
+     1>Project "C:\!work\robots\LIB\FilePNG\Lib\FilePNG.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\FilePNG.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\LIBPNG /I..\..\ZLib\ZLIB /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\FilePNG.cpp
+         FilePNG.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\LIBPNG /I..\..\ZLib\ZLIB /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\LIBPNG\png.c ..\LIBPNG\pngerror.c ..\LIBPNG\pngget.c ..\LIBPNG\pngmem.c ..\LIBPNG\pngpread.c ..\LIBPNG\pngread.c ..\LIBPNG\pngrio.c ..\LIBPNG\pngrtran.c ..\LIBPNG\pngrutil.c ..\LIBPNG\pngset.c ..\LIBPNG\pngtrans.c ..\LIBPNG\pngvcrd.c ..\LIBPNG\pngwio.c ..\LIBPNG\pngwrite.c ..\LIBPNG\pngwtran.c ..\LIBPNG\pngwutil.c
+         pngwutil.c
+         pngwtran.c
+         pngwrite.c
+         pngwio.c
+         pngvcrd.c
+         pngtrans.c
+         pngset.c
+         pngrutil.c
+         pngrtran.c
+         pngrio.c
+         pngread.c
+         pngpread.c
+         pngmem.c
+         pngget.c
+         pngerror.c
+         png.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\FilePNG.lib" /NOLOGO Debug\FilePNG.obj
+         Debug\png.obj
+         Debug\pngerror.obj
+         Debug\pngget.obj
+         Debug\pngmem.obj
+         Debug\pngpread.obj
+         Debug\pngread.obj
+         Debug\pngrio.obj
+         Debug\pngrtran.obj
+         Debug\pngrutil.obj
+         Debug\pngset.obj
+         Debug\pngtrans.obj
+         Debug\pngvcrd.obj
+         Debug\pngwio.obj
+         Debug\pngwrite.obj
+         Debug\pngwtran.obj
+         Debug\pngwutil.obj
+         FilePNG.vcxproj -> C:\!work\robots\LIB\FilePNG\Lib\..\FilePNG.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\FilePNG.unsuccessfulbuild".
+         Touching "Debug\FilePNG.lastbuildstate".
+     1>Done Building Project "C:\!work\robots\LIB\FilePNG\Lib\FilePNG.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.78

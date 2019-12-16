@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_other|Win32">
+      <Configuration>Debug_other</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLLDebug|Win32">
+      <Configuration>DLLDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLLRelease|Win32">
+      <Configuration>DLLRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLLTraceRelease|Win32">
+      <Configuration>DLLTraceRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RD|Win32">
+      <Configuration>RD</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TraceRelease|Win32">
+      <Configuration>TraceRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F28378A0-D166-4260-8389-1DFDC7266059}</ProjectGuid>
+    <RootNamespace>MatrixGame</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='TraceRelease|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLLTraceRelease|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_other|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLLDebug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLLRelease|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RD|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='TraceRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLLTraceRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_other|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLLDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLLRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RD|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RD|Win32'">..\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RD|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RD|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLLRelease|Win32'">..\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DLLRelease|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLLRelease|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLLDebug|Win32'">..\..\..\..\..\Games\sr2 binary</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DLLDebug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLLDebug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_other|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_other|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug_other|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLLTraceRelease|Win32'">c:\work\eg\rangers\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DLLTraceRelease|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLLTraceRelease|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='TraceRelease|Win32'">..\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='TraceRelease|Win32'">TraceRelease\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='TraceRelease|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_other|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_other|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_other|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DLLDebug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='DLLDebug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='DLLDebug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DLLRelease|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='DLLRelease|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='DLLRelease|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DLLTraceRelease|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='DLLTraceRelease|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='DLLTraceRelease|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='RD|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='RD|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='RD|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='TraceRelease|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='TraceRelease|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='TraceRelease|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\LIB\Base\Src;$(ProjectDir)..\..\..\LIB\3G\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MATRIXGAME_EXPORTS;USE_PNGLIB;_DEBUG;_DISABLE_AI_HELPERS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/FIXED:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>Winmm.lib;d3d9.lib;d3dx9.lib;DxErr9.lib;DebugMsg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MatrixGame.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\LIB\FilePNG;C:\work\EG\SRC\LIB\ZLIB;C:\work\EG\dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)MatrixGame.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\LIB\Base\Src;$(ProjectDir)..\..\..\LIB\3G\Src;$(DXSDK_DIR)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MATRIXGAME_EXPORTS;USE_PNGLIB;ASSERT_OFF;EXE_VERSION;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>FastCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Winmm.lib;d3d9.lib;d3dx9.lib;DxErr9.lib;DebugMsg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MatrixGame.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\LIB\FilePNG;$(ProjectDir)..\..\..\LIB\ZLIB;$(ProjectDir)..\..\..\LIB\DebugMsg;$(DXSDK_DIR)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RD|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\LIB\Base\Src;$(ProjectDir)..\..\..\LIB\3G\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MATRIXGAME_EXPORTS;USE_PNGLIB;_DEBUG;_RELDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/FIXED:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>Winmm.lib;d3d9.lib;d3dx9.lib;DxErr9.lib;DebugMsg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MatrixGame.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\LIB\FilePNG;C:\work\EG\SRC\LIB\ZLIB;C:\work\EG\dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)MatrixGame.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLLRelease|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\LIB\Base\Src;$(ProjectDir)..\..\..\LIB\3G\Src;$(DXSDK_DIR)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>USE_PNGLIB;MATRIXGAME_EXPORTS;ASSERT_OFF;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <CallingConvention>FastCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Winmm.lib;d3d9.lib;d3dx9.lib;DxErr9.lib;DebugMsg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MatrixGame.dll</OutputFile>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcp.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\LIB\ZLIB;$(ProjectDir)..\..\..\LIB\FilePng;$(ProjectDir)..\..\..\LIB\DebugMsg;$(DXSDK_DIR)\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLLDebug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX 9.0 SDK %28December 2004%29\Include;$(ProjectDir)..\..\..\LIB\Base\Src;$(ProjectDir)..\..\..\LIB\3G\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MATRIXGAME_EXPORTS;USE_PNGLIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/FIXED:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>Winmm.lib;d3d9.lib;d3dx9.lib;DxErr9.lib;DebugMsg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MatrixGame.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\LIB\FilePNG;$(ProjectDir)..\..\..\LIB\ZLIB;$(ProjectDir)..\..\..\LIB\DebugMsg;C:\Program Files %28x86%29\Microsoft DirectX 9.0 SDK %28December 2004%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libc;libcp;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)MatrixGame.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_other|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\LIB\Base\Src;$(ProjectDir)..\..\..\LIB\3G\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MATRIXGAME_EXPORTS;USE_PNGLIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/FIXED:NO %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>Winmm.lib;d3d9.lib;d3dx9.lib;DxErr9.lib;DebugMsg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MatrixGame.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\LIB\FilePNG;C:\work\EG\SRC\LIB\ZLIB;C:\work\EG\dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)MatrixGame.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLLTraceRelease|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\LIB\Base\Src;$(ProjectDir)..\..\..\LIB\3G\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>USE_PNGLIB;MATRIXGAME_EXPORTS;_TRACE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <CallingConvention>FastCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Winmm.lib;d3d9.lib;d3dx9.lib;DxErr9.lib;DebugMsg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MatrixGame.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\LIB\FilePNG;C:\work\EG\SRC\LIB\ZLIB;C:\work\EG\dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TraceRelease|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\LIB\Base\Src;$(ProjectDir)..\..\..\LIB\3G\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MATRIXGAME_EXPORTS;USE_PNGLIB;ASSERT_OFF;_TRACE;EXE_VERSION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>FastCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Winmm.lib;d3d9.lib;d3dx9.lib;DxErr9.lib;DebugMsg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MatrixGame.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\..\LIB\FilePNG;C:\work\EG\SRC\LIB\ZLIB;C:\work\EG\dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Lib\3g\Src\3g.cpp" />
+    <ClCompile Include="..\..\..\Lib\3g\Src\BigIB.cpp" />
+    <ClCompile Include="..\..\..\Lib\3g\Src\BigVB.cpp" />
+    <ClCompile Include="..\..\..\Lib\3g\Src\Cache.cpp" />
+    <ClCompile Include="..\..\..\LIB\3G\Src\CBillboard.cpp" />
+    <ClCompile Include="..\..\..\Lib\3g\Src\DeviceState.cpp" />
+    <ClCompile Include="..\..\..\Lib\3g\Src\Form.cpp" />
+    <ClCompile Include="..\..\..\LIB\3G\Src\Helper.cpp" />
+    <ClCompile Include="..\..\..\Lib\3g\Src\Math3D.cpp" />
+    <ClCompile Include="..\..\..\Lib\3g\Src\ShadowProj.cpp" />
+    <ClCompile Include="..\..\..\Lib\3g\Src\ShadowStencil.cpp" />
+    <ClCompile Include="..\..\..\LIB\3G\Src\Texture.cpp" />
+    <ClCompile Include="..\..\..\Lib\3g\Src\VectorObject.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\CBlockPar.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\CBuf.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\CDWORDMap.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\CException.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\CFile.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\CHeap.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\CMain.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\CRC32.cpp" />
+    <ClCompile Include="..\..\..\LIB\Base\Src\CReminder.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\CStorage.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\CStr.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\CWStr.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\CWStrFormat.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\Mem.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\Pack.cpp" />
+    <ClCompile Include="..\..\..\Lib\Base\Src\Registry.cpp" />
+    <ClCompile Include="..\..\..\LIB\Base\Src\Tracer.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DLLDebug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DLLRelease|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='DLLTraceRelease|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug_other|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='RD|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='TraceRelease|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\DevConsole.cpp" />
+    <ClCompile Include="..\src\MatrixCamera.cpp" />
+    <ClCompile Include="..\src\MatrixConfig.cpp" />
+    <ClCompile Include="..\src\MatrixCursor.cpp" />
+    <ClCompile Include="..\src\MatrixDebugInfo.cpp" />
+    <ClCompile Include="..\src\MatrixFlyer.cpp" />
+    <ClCompile Include="..\src\MatrixFormGame.cpp" />
+    <ClCompile Include="..\src\MatrixGame.cpp" />
+    <ClCompile Include="..\src\MatrixGameDll.cpp" />
+    <ClCompile Include="..\src\MatrixInstantDraw.cpp" />
+    <ClCompile Include="..\src\MatrixLoadProgress.cpp" />
+    <ClCompile Include="..\src\MatrixLogic.cpp" />
+    <ClCompile Include="..\src\MatrixMap.cpp" />
+    <ClCompile Include="..\src\MatrixMapGroup.cpp" />
+    <ClCompile Include="..\src\MatrixMapPrepare.cpp" />
+    <ClCompile Include="..\src\MatrixMapStatic.cpp" />
+    <ClCompile Include="..\src\MatrixMapTexture.cpp" />
+    <ClCompile Include="..\src\MatrixMapTrace.cpp" />
+    <ClCompile Include="..\src\MatrixMinimap.cpp" />
+    <ClCompile Include="..\src\MatrixMultiSelection.cpp" />
+    <ClCompile Include="..\src\MatrixObject.cpp" />
+    <ClCompile Include="..\src\MatrixObjectBuilding.cpp" />
+    <ClCompile Include="..\src\MatrixObjectCannon.cpp" />
+    <ClCompile Include="..\src\MatrixObjectRobot.cpp" />
+    <ClCompile Include="..\src\MatrixProgressBar.cpp" />
+    <ClCompile Include="..\src\MatrixRenderPipeline.cpp" />
+    <ClCompile Include="..\src\MatrixRobot.cpp" />
+    <ClCompile Include="..\src\MatrixShadowManager.cpp" />
+    <ClCompile Include="..\src\MatrixSide.cpp" />
+    <ClCompile Include="..\src\MatrixSkinManager.cpp" />
+    <ClCompile Include="..\src\MatrixSoundManager.cpp" />
+    <ClCompile Include="..\src\MatrixTerSurface.cpp" />
+    <ClCompile Include="..\src\MatrixTransition.cpp" />
+    <ClCompile Include="..\src\MatrixVisiCalc.cpp" />
+    <ClCompile Include="..\src\MatrixWater.cpp" />
+    <ClCompile Include="..\src\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DLLDebug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DLLRelease|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DLLTraceRelease|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_other|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RD|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='TraceRelease|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixAIGroup.cpp" />
+    <ClCompile Include="..\src\MatrixEnvironment.cpp" />
+    <ClCompile Include="..\src\MatrixLogicSlot.cpp" />
+    <ClCompile Include="..\src\MatrixRoadNetwork.cpp" />
+    <ClCompile Include="..\src\MatrixRule.cpp" />
+    <ClCompile Include="..\src\MatrixState.cpp" />
+    <ClCompile Include="..\src\MatrixTactics.cpp" />
+    <ClCompile Include="..\src\MatrixEffect.cpp" />
+    <ClCompile Include="..\src\MatrixEffectBigBoom.cpp" />
+    <ClCompile Include="..\src\MatrixEffectBillboard.cpp" />
+    <ClCompile Include="..\src\MatrixEffectDust.cpp" />
+    <ClCompile Include="..\src\MatrixEffectElevatorField.cpp" />
+    <ClCompile Include="..\src\MatrixEffectExplosion.cpp" />
+    <ClCompile Include="..\src\MatrixEffectFirePlasma.cpp" />
+    <ClCompile Include="..\src\MatrixEffectFlame.cpp" />
+    <ClCompile Include="..\src\MatrixEffectKonus.cpp" />
+    <ClCompile Include="..\src\MatrixEffectLandscapeSpot.cpp" />
+    <ClCompile Include="..\src\MatrixEffectLightening.cpp" />
+    <ClCompile Include="..\src\MatrixEffectMoveTo.cpp" />
+    <ClCompile Include="..\src\MatrixEffectMovingObject.cpp" />
+    <ClCompile Include="..\src\MatrixEffectPath.cpp" />
+    <ClCompile Include="..\src\MatrixEffectPointLight.cpp" />
+    <ClCompile Include="..\src\MatrixEffectRepair.cpp" />
+    <ClCompile Include="..\src\MatrixEffectSelection.cpp" />
+    <ClCompile Include="..\src\MatrixEffectShleif.cpp" />
+    <ClCompile Include="..\src\MatrixEffectSmokeAndFire.cpp" />
+    <ClCompile Include="..\src\MatrixEffectWeapon.cpp" />
+    <ClCompile Include="..\src\MatrixEffectZahvat.cpp" />
+    <ClCompile Include="..\src\CAnimation.cpp" />
+    <ClCompile Include="..\src\CConstructor.cpp" />
+    <ClCompile Include="..\src\CCounter.cpp" />
+    <ClCompile Include="..\src\CHistory.cpp" />
+    <ClCompile Include="..\src\CIFaceButton.cpp" />
+    <ClCompile Include="..\src\CIFaceElement.cpp" />
+    <ClCompile Include="..\src\CIFaceImage.cpp" />
+    <ClCompile Include="..\src\CIFaceMenu.cpp" />
+    <ClCompile Include="..\src\CIFaceStatic.cpp" />
+    <ClCompile Include="..\src\CInterface.cpp" />
+    <ClCompile Include="..\src\MatrixHint.cpp" />
+    <ClCompile Include="..\..\..\Lib\Bitmap\Src\CBitmap.cpp" />
+    <ClCompile Include="..\..\..\Lib\Bitmap\Src\sharpen.cpp" />
+    <ClCompile Include="..\src\MatrixSampleStateManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Lib\3g\Src\3g.hpp" />
+    <ClInclude Include="..\..\..\Lib\3g\Src\BigIB.hpp" />
+    <ClInclude Include="..\..\..\Lib\3g\Src\BigVB.hpp" />
+    <ClInclude Include="..\..\..\Lib\3g\Src\Cache.hpp" />
+    <ClInclude Include="..\..\..\LIB\3G\Src\CBillboard.hpp" />
+    <ClInclude Include="..\..\..\LIB\3G\Src\D3DControl.hpp" />
+    <ClInclude Include="..\..\..\Lib\3g\Src\DeviceState.hpp" />
+    <ClInclude Include="..\..\..\Lib\3g\Src\Form.hpp" />
+    <ClInclude Include="..\..\..\LIB\3G\Src\Helper.hpp" />
+    <ClInclude Include="..\..\..\Lib\3g\Src\Math3D.hpp" />
+    <ClInclude Include="..\..\..\Lib\3g\Src\ShadowProj.hpp" />
+    <ClInclude Include="..\..\..\Lib\3g\Src\ShadowStencil.hpp" />
+    <ClInclude Include="..\..\..\Lib\3g\Src\stdafx.h" />
+    <ClInclude Include="..\..\..\Lib\3g\Src\Texture.hpp" />
+    <ClInclude Include="..\..\..\Lib\3g\Src\VectorObject.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\Base.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\BaseDef.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\CBlockPar.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\CBuf.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\CDWORDMap.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\CException.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\CFile.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\CHeap.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\CMain.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\CRC32.hpp" />
+    <ClInclude Include="..\..\..\LIB\Base\Src\CReminder.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\CStorage.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\CStr.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\CWStr.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\Mem.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\Pack.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\Registry.hpp" />
+    <ClInclude Include="..\..\..\Lib\Base\Src\stdafx.h" />
+    <ClInclude Include="..\..\..\LIB\Base\Src\Tracer.hpp" />
+    <ClInclude Include="..\src\Common.hpp" />
+    <ClInclude Include="..\src\DevConsole.hpp" />
+    <ClInclude Include="..\src\MatrixCamera.hpp" />
+    <ClInclude Include="..\src\MatrixConfig.hpp" />
+    <ClInclude Include="..\src\MatrixCursor.hpp" />
+    <ClInclude Include="..\src\MatrixDebugInfo.hpp" />
+    <ClInclude Include="..\src\MatrixFlyer.hpp" />
+    <ClInclude Include="..\src\MatrixFormGame.hpp" />
+    <ClInclude Include="..\src\MatrixGame.h" />
+    <ClInclude Include="..\src\MatrixGameDll.hpp" />
+    <ClInclude Include="..\src\MatrixInstantDraw.hpp" />
+    <ClInclude Include="..\src\MatrixLoadProgress.hpp" />
+    <ClInclude Include="..\src\MatrixLogic.hpp" />
+    <ClInclude Include="..\src\MatrixMap.hpp" />
+    <ClInclude Include="..\src\MatrixMapGroup.hpp" />
+    <ClInclude Include="..\src\MatrixMapStatic.hpp" />
+    <ClInclude Include="..\src\MatrixMapTexture.hpp" />
+    <ClInclude Include="..\src\MatrixMinimap.hpp" />
+    <ClInclude Include="..\src\MatrixMultiSelection.hpp" />
+    <ClInclude Include="..\src\MatrixObject.hpp" />
+    <ClInclude Include="..\src\MatrixObjectBuilding.hpp" />
+    <ClInclude Include="..\src\MatrixObjectCannon.hpp" />
+    <ClInclude Include="..\src\MatrixObjectRobot.hpp" />
+    <ClInclude Include="..\src\MatrixProgressBar.hpp" />
+    <ClInclude Include="..\src\MatrixRenderPipeline.hpp" />
+    <ClInclude Include="..\src\MatrixRobot.hpp" />
+    <ClInclude Include="..\src\MatrixShadowManager.hpp" />
+    <ClInclude Include="..\src\MatrixSide.hpp" />
+    <ClInclude Include="..\src\MatrixSkinManager.hpp" />
+    <ClInclude Include="..\src\MatrixSoundManager.hpp" />
+    <ClInclude Include="..\src\MatrixTerSurface.hpp" />
+    <ClInclude Include="..\src\MatrixTransition.hpp" />
+    <ClInclude Include="..\src\MatrixWater.hpp" />
+    <ClInclude Include="..\src\Resource.h" />
+    <ClInclude Include="..\src\stdafx.h" />
+    <ClInclude Include="..\src\StringConstants.hpp" />
+    <ClInclude Include="..\src\MatrixAIGroup.h" />
+    <ClInclude Include="..\src\MatrixEnvironment.h" />
+    <ClInclude Include="..\src\MatrixLogicSlot.h" />
+    <ClInclude Include="..\src\MatrixRoadNetwork.hpp" />
+    <ClInclude Include="..\src\MatrixRule.h" />
+    <ClInclude Include="..\src\MatrixState.h" />
+    <ClInclude Include="..\src\MatrixTactics.h" />
+    <ClInclude Include="..\src\MatrixEffect.hpp" />
+    <ClInclude Include="..\src\MatrixEffectBigBoom.hpp" />
+    <ClInclude Include="..\src\MatrixEffectBillboard.hpp" />
+    <ClInclude Include="..\src\MatrixEffectDust.hpp" />
+    <ClInclude Include="..\src\MatrixEffectElevatorField.hpp" />
+    <ClInclude Include="..\src\MatrixEffectExplosion.hpp" />
+    <ClInclude Include="..\src\MatrixEffectFirePlasma.hpp" />
+    <ClInclude Include="..\src\MatrixEffectFlame.hpp" />
+    <ClInclude Include="..\src\MatrixEffectKonus.hpp" />
+    <ClInclude Include="..\src\MatrixEffectLandscapeSpot.hpp" />
+    <ClInclude Include="..\src\MatrixEffectLightening.hpp" />
+    <ClInclude Include="..\src\MatrixEffectMoveTo.hpp" />
+    <ClInclude Include="..\src\MatrixEffectMovingObject.hpp" />
+    <ClInclude Include="..\src\MatrixEffectPath.hpp" />
+    <ClInclude Include="..\src\MatrixEffectPointLight.hpp" />
+    <ClInclude Include="..\src\MatrixEffectRepair.hpp" />
+    <ClInclude Include="..\src\MatrixEffectSelection.hpp" />
+    <ClInclude Include="..\src\MatrixEffectShleif.hpp" />
+    <ClInclude Include="..\src\MatrixEffectSmokeAndFire.hpp" />
+    <ClInclude Include="..\src\MatrixEffectWeapon.hpp" />
+    <ClInclude Include="..\src\MatrixEffectZahvat.hpp" />
+    <ClInclude Include="..\src\CAnimation.h" />
+    <ClInclude Include="..\src\CConstructor.h" />
+    <ClInclude Include="..\src\CCounter.h" />
+    <ClInclude Include="..\src\CHistory.h" />
+    <ClInclude Include="..\src\CIFaceButton.h" />
+    <ClInclude Include="..\src\CIFaceElement.h" />
+    <ClInclude Include="..\src\CIFaceImage.h" />
+    <ClInclude Include="..\src\CIFaceMenu.h" />
+    <ClInclude Include="..\src\CIFaceStatic.h" />
+    <ClInclude Include="..\src\CInterface.h" />
+    <ClInclude Include="..\src\Interface.h" />
+    <ClInclude Include="..\src\MatrixHint.hpp" />
+    <ClInclude Include="..\..\..\Lib\Bitmap\Src\Bitmap.hpp" />
+    <ClInclude Include="..\..\..\Lib\Bitmap\Src\BitmapDef.hpp" />
+    <ClInclude Include="..\..\..\Lib\Bitmap\Src\CBitmap.hpp" />
+    <ClInclude Include="..\..\..\Lib\Bitmap\Src\stdafx.h" />
+    <ClInclude Include="..\..\..\LIB\DebugMsg\Src\DebugMsg.h" />
+    <ClInclude Include="..\..\..\LIB\DebugMsg\Src\Main.h" />
+    <ClInclude Include="..\..\..\LIB\DebugMsg\Src\StdAfx.h" />
+    <ClInclude Include="..\src\MatrixSampleStateManager.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\Lib\Bitmap\Src\asharpen.asm">
+      <Command Condition="'$(Configuration)|$(Platform)'=='DLLDebug|Win32'">ml /c /Zi /coff /nologo /Fo$(IntDir)%(Filename).obj %(FullPath)
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='DLLDebug|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='DLLRelease|Win32'">ml /c /Zi /coff /nologo /Fo$(IntDir)%(Filename).obj %(FullPath)
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='DLLRelease|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='DLLTraceRelease|Win32'">ml /c /Zi /coff /nologo /Fo$(IntDir)%(Filename).obj %(FullPath)
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='DLLTraceRelease|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug_other|Win32'">ml /c /Zi /coff /nologo /Fo$(IntDir)%(Filename).obj %(FullPath)
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug_other|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ml /c /Zi /coff /nologo /Fo$(IntDir)%(Filename).obj %(FullPath)
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RD|Win32'">ml /c /Zi /coff /nologo /Fo$(IntDir)%(Filename).obj %(FullPath)
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RD|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ml /c /Zi /coff /nologo /Fo$(IntDir)%(Filename).obj %(FullPath)
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='TraceRelease|Win32'">ml /c /Zi /coff /nologo /Fo$(IntDir)%(Filename).obj %(FullPath)
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='TraceRelease|Win32'">$(IntDir)%(Filename).obj;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="..\src\MatrixGame.ico" />
+    <None Include="..\src\small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\MatrixGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\LIB\FilePNG\Lib\FilePNG.vcxproj">
+      <Project>{0a341bd7-a7a0-4f3b-be32-fececaac2ed5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\LIB\ZLIB\Lib\ZLIB.vcxproj">
+      <Project>{a5d581a5-f47b-4413-b87e-f6eb8b068691}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

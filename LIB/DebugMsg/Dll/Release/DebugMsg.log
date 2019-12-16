@@ -1,0 +1,30 @@
+﻿Build started 12.04.2012 21:50:23.
+     1>Project "C:\!work\robots\LIB\DebugMsg\Dll\DebugMsg.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\DebugMsg.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DEBUGMSG_EXPORTS /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\DebugMsg.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\StdAfx.cpp
+         StdAfx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DEBUGMSG_EXPORTS /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\Command.cpp ..\Src\DebugMsg.cpp ..\Src\FastBuf.cpp ..\Src\main.cpp ..\Src\SynBuf.cpp
+         Command.cpp
+         DebugMsg.cpp
+         FastBuf.cpp
+         main.cpp
+         SynBuf.cpp
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\DebugMsg.lib" /NOLOGO Release\Command.obj
+         Release\DebugMsg.obj
+         Release\FastBuf.obj
+         Release\main.obj
+         Release\StdAfx.obj
+         Release\SynBuf.obj
+         DebugMsg.vcxproj -> C:\!work\robots\LIB\DebugMsg\Dll\..\DebugMsg.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\DebugMsg.unsuccessfulbuild".
+         Touching "Release\DebugMsg.lastbuildstate".
+     1>Done Building Project "C:\!work\robots\LIB\DebugMsg\Dll\DebugMsg.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.16

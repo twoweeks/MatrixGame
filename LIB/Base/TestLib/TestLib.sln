@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestLib", "TestLib.vcproj", "{840A88AA-29E9-4DC5-B6D7-512A6BB5B2EB}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {653F2964-B4DD-493D-B777-BFB8215CF63F}
+		SccProjectUniqueName1 = TestLib.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{840A88AA-29E9-4DC5-B6D7-512A6BB5B2EB}.Debug.ActiveCfg = Debug|Win32
+		{840A88AA-29E9-4DC5-B6D7-512A6BB5B2EB}.Debug.Build.0 = Debug|Win32
+		{840A88AA-29E9-4DC5-B6D7-512A6BB5B2EB}.Release.ActiveCfg = Release|Win32
+		{840A88AA-29E9-4DC5-B6D7-512A6BB5B2EB}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

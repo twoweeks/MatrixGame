@@ -1,0 +1,66 @@
+﻿Build started 11.06.2012 22:31:01.
+     1>Project "C:\!work\robots\LIB\FilePNG\Lib\FilePNG.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\FilePNG.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\FilePNG.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\LIBPNG /I..\..\ZLib\ZLIB /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /Zp1 /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\FilePNG.cpp
+         FilePNG.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\LIBPNG /I..\..\ZLib\ZLIB /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /D WIN32 /D NDEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /Zp1 /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\LIBPNG\png.c ..\LIBPNG\pngerror.c ..\LIBPNG\pngget.c ..\LIBPNG\pngmem.c ..\LIBPNG\pngpread.c ..\LIBPNG\pngread.c ..\LIBPNG\pngrio.c ..\LIBPNG\pngrtran.c ..\LIBPNG\pngrutil.c ..\LIBPNG\pngset.c ..\LIBPNG\pngtrans.c ..\LIBPNG\pngvcrd.c ..\LIBPNG\pngwio.c ..\LIBPNG\pngwrite.c ..\LIBPNG\pngwtran.c ..\LIBPNG\pngwutil.c
+         png.c
+     1>..\LIBPNG\png.c(346): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+     1>..\LIBPNG\pngrtran.c(1090): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         pngrutil.c
+     1>..\LIBPNG\pngrutil.c(1416): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         pngset.c
+         pngtrans.c
+         pngvcrd.c
+         pngwio.c
+         pngwrite.c
+     1>..\LIBPNG\pngwrite.c(239): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(99) : see declaration of 'gmtime'
+         pngwtran.c
+         pngwutil.c
+     1>..\LIBPNG\pngwutil.c(627): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\LIBPNG\pngwutil.c(775): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\FilePNG.lib" /NOLOGO Release\FilePNG.obj
+         Release\png.obj
+         Release\pngerror.obj
+         Release\pngget.obj
+         Release\pngmem.obj
+         Release\pngpread.obj
+         Release\pngread.obj
+         Release\pngrio.obj
+         Release\pngrtran.obj
+         Release\pngrutil.obj
+         Release\pngset.obj
+         Release\pngtrans.obj
+         Release\pngvcrd.obj
+         Release\pngwio.obj
+         Release\pngwrite.obj
+         Release\pngwtran.obj
+         Release\pngwutil.obj
+         FilePNG.vcxproj -> C:\!work\robots\LIB\FilePNG\Lib\..\FilePNG.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\FilePNG.unsuccessfulbuild".
+         Touching "Release\FilePNG.lastbuildstate".
+     1>Done Building Project "C:\!work\robots\LIB\FilePNG\Lib\FilePNG.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.53

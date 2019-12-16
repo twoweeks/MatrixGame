@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FilePNG", "FilePNG.vcproj", "{0A341BD7-A7A0-4F3B-BE32-FECECAAC2ED5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = \u0022$/Lib/FilePNG\u0022,\u0020TKAAAAAA
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection0 = Lib\\
+		SolutionUniqueID = {B1481933-88D7-4776-B88F-1F134875AF4D}
+		SccProjectUniqueName1 = FilePNG.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = Lib\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0A341BD7-A7A0-4F3B-BE32-FECECAAC2ED5}.Debug.ActiveCfg = Debug|Win32
+		{0A341BD7-A7A0-4F3B-BE32-FECECAAC2ED5}.Debug.Build.0 = Debug|Win32
+		{0A341BD7-A7A0-4F3B-BE32-FECECAAC2ED5}.Release.ActiveCfg = Release|Win32
+		{0A341BD7-A7A0-4F3B-BE32-FECECAAC2ED5}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

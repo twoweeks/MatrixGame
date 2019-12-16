@@ -1,0 +1,49 @@
+﻿Build started 12.04.2012 21:49:22.
+     1>Project "C:\!work\robots\LIB\DebugMsg\Dll\DebugMsg.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\DebugMsg.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DEBUGMSG_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\DebugMsg.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\StdAfx.cpp
+         StdAfx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DEBUGMSG_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DebugMsg.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\Command.cpp ..\Src\DebugMsg.cpp ..\Src\FastBuf.cpp ..\Src\main.cpp ..\Src\SynBuf.cpp
+         Command.cpp
+         DebugMsg.cpp
+         FastBuf.cpp
+         main.cpp
+         SynBuf.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DebugMsg.dll.embed.manifest.res" Debug\DebugMsg_manifest.rc 
+       MakeDirsForLink:
+         Creating directory "C:\!work\robots\LIB\DebugMsg\Dll\..\..\..\dll".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\!work\robots\LIB\DebugMsg\Dll\..\DebugMsg.dll) does not match the Linker's OutputFile property value (C:\!work\robots\dll\DebugMsg.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\dll\DebugMsg.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DebugMsg.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\!work\robots\LIB\DebugMsg\DebugMsg.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\DebugMsg.lib" /MACHINE:X86 /DLL Debug\DebugMsg.dll.embed.manifest.res
+         Debug\Command.obj
+         Debug\DebugMsg.obj
+         Debug\FastBuf.obj
+         Debug\main.obj
+         Debug\StdAfx.obj
+         Debug\SynBuf.obj /MACHINE:I386 
+            Creating library ..\DebugMsg.lib and object ..\DebugMsg.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DebugMsg.dll.embed.manifest" /manifest Debug\DebugMsg.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DebugMsg.dll.embed.manifest.res" Debug\DebugMsg_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\dll\DebugMsg.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DebugMsg.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\!work\robots\LIB\DebugMsg\DebugMsg.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\DebugMsg.lib" /MACHINE:X86 /DLL Debug\DebugMsg.dll.embed.manifest.res
+         Debug\Command.obj
+         Debug\DebugMsg.obj
+         Debug\FastBuf.obj
+         Debug\main.obj
+         Debug\StdAfx.obj
+         Debug\SynBuf.obj /MACHINE:I386 
+            Creating library ..\DebugMsg.lib and object ..\DebugMsg.exp
+         DebugMsg.vcxproj -> C:\!work\robots\LIB\DebugMsg\Dll\..\DebugMsg.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\DebugMsg.unsuccessfulbuild".
+         Touching "Debug\DebugMsg.lastbuildstate".
+     1>Done Building Project "C:\!work\robots\LIB\DebugMsg\Dll\DebugMsg.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.59

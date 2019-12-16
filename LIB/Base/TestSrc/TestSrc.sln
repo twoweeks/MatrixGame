@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestSrc", "TestSrc.vcproj", "{11C4D5F8-ECF7-4BFD-A245-B8AB704AE9A8}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectUniqueName0 = TestSrc.vcproj
+		SccLocalPath0 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection0 = TestSrc\\
+		SccProjectName1 = \u0022$/Lib/Base\u0022,\u0020EBAAAAAA
+		SccLocalPath1 = ..
+		SccProvider1 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = TestSrc\\
+		SolutionUniqueID = {A23BF58B-AFBF-4B03-B447-1898C23C144A}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{11C4D5F8-ECF7-4BFD-A245-B8AB704AE9A8}.Debug.ActiveCfg = Debug|Win32
+		{11C4D5F8-ECF7-4BFD-A245-B8AB704AE9A8}.Debug.Build.0 = Debug|Win32
+		{11C4D5F8-ECF7-4BFD-A245-B8AB704AE9A8}.Release.ActiveCfg = Release|Win32
+		{11C4D5F8-ECF7-4BFD-A245-B8AB704AE9A8}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

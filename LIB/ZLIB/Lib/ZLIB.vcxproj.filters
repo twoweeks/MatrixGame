@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ebae0e53-3c1c-4bee-8c72-d24b8314b8c4}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{473ed76f-9b8b-4310-8dc7-c4b767872e42}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{cebc5fcd-0bab-41bb-af28-b6472d70469e}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="ZLIB">
+      <UniqueIdentifier>{3328672b-7c4b-46d6-acc9-830379c13330}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\adler32.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\compress.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\crc32.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\deflate.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\gzio.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\infblock.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\infcodes.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\inffast.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\inflate.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\inftrees.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\infutil.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\trees.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\uncompr.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Zlib\zutil.c">
+      <Filter>ZLIB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Zlib\deflate.h">
+      <Filter>ZLIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zlib\infblock.h">
+      <Filter>ZLIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zlib\infcodes.h">
+      <Filter>ZLIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zlib\inffast.h">
+      <Filter>ZLIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zlib\inffixed.h">
+      <Filter>ZLIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zlib\inftrees.h">
+      <Filter>ZLIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zlib\infutil.h">
+      <Filter>ZLIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zlib\trees.h">
+      <Filter>ZLIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zlib\zconf.h">
+      <Filter>ZLIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zlib\zlib.h">
+      <Filter>ZLIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Zlib\zutil.h">
+      <Filter>ZLIB</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

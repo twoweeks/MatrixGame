@@ -1,0 +1,733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="3g">
+      <UniqueIdentifier>{b41328a5-7ad7-44f6-b803-a150daea17ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{a00e358e-08b9-41d2-b921-211327cab06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{08287ce0-8272-4426-8331-a06bdff7f626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Logic">
+      <UniqueIdentifier>{3d671ab7-6a30-4041-94d0-4ca9ef07b2af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Effects">
+      <UniqueIdentifier>{ca8bb36f-8b9e-427d-878e-f63282d2b02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Interface">
+      <UniqueIdentifier>{30a4ad03-3dc7-4d5a-a6b2-fab21236b9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bitmap">
+      <UniqueIdentifier>{073bfc41-af81-4bfd-8c24-1451313e01c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{15ba8dc9-8cd5-49ed-8f30-33698dafd5e8}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{6b199eae-ce1c-4be9-bcf7-241613027f7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Lib\3g\Src\3g.cpp">
+      <Filter>3g</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\3g\Src\BigIB.cpp">
+      <Filter>3g</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\3g\Src\BigVB.cpp">
+      <Filter>3g</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\3g\Src\Cache.cpp">
+      <Filter>3g</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\LIB\3G\Src\CBillboard.cpp">
+      <Filter>3g</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\3g\Src\DeviceState.cpp">
+      <Filter>3g</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\3g\Src\Form.cpp">
+      <Filter>3g</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\LIB\3G\Src\Helper.cpp">
+      <Filter>3g</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\3g\Src\Math3D.cpp">
+      <Filter>3g</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\3g\Src\ShadowProj.cpp">
+      <Filter>3g</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\3g\Src\ShadowStencil.cpp">
+      <Filter>3g</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\LIB\3G\Src\Texture.cpp">
+      <Filter>3g</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\3g\Src\VectorObject.cpp">
+      <Filter>3g</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\CBlockPar.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\CBuf.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\CDWORDMap.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\CException.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\CFile.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\CHeap.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\CMain.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\CRC32.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\LIB\Base\Src\CReminder.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\CStorage.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\CStr.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\CWStr.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\CWStrFormat.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\Mem.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\Pack.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Base\Src\Registry.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\LIB\Base\Src\Tracer.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DevConsole.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixCamera.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixConfig.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixCursor.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixDebugInfo.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixFlyer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixFormGame.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixGame.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixGameDll.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixInstantDraw.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixLoadProgress.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixLogic.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixMap.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixMapGroup.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixMapPrepare.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixMapStatic.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixMapTexture.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixMapTrace.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixMinimap.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixMultiSelection.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixObject.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixObjectBuilding.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixObjectCannon.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixObjectRobot.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixProgressBar.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixRenderPipeline.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixRobot.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixShadowManager.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixSide.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixSkinManager.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixSoundManager.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixTerSurface.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixTransition.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixVisiCalc.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixWater.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stdafx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixAIGroup.cpp">
+      <Filter>Main\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEnvironment.cpp">
+      <Filter>Main\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixLogicSlot.cpp">
+      <Filter>Main\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixRoadNetwork.cpp">
+      <Filter>Main\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixRule.cpp">
+      <Filter>Main\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixState.cpp">
+      <Filter>Main\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixTactics.cpp">
+      <Filter>Main\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffect.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectBigBoom.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectBillboard.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectDust.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectElevatorField.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectExplosion.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectFirePlasma.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectFlame.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectKonus.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectLandscapeSpot.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectLightening.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectMoveTo.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectMovingObject.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectPath.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectPointLight.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectRepair.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectSelection.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectShleif.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectSmokeAndFire.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectWeapon.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixEffectZahvat.cpp">
+      <Filter>Main\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CAnimation.cpp">
+      <Filter>Main\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CConstructor.cpp">
+      <Filter>Main\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CCounter.cpp">
+      <Filter>Main\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CHistory.cpp">
+      <Filter>Main\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CIFaceButton.cpp">
+      <Filter>Main\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CIFaceElement.cpp">
+      <Filter>Main\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CIFaceImage.cpp">
+      <Filter>Main\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CIFaceMenu.cpp">
+      <Filter>Main\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CIFaceStatic.cpp">
+      <Filter>Main\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CInterface.cpp">
+      <Filter>Main\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixHint.cpp">
+      <Filter>Main\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Bitmap\Src\CBitmap.cpp">
+      <Filter>Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Lib\Bitmap\Src\sharpen.cpp">
+      <Filter>Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MatrixSampleStateManager.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Lib\3g\Src\3g.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\3g\Src\BigIB.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\3g\Src\BigVB.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\3g\Src\Cache.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\LIB\3G\Src\CBillboard.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\LIB\3G\Src\D3DControl.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\3g\Src\DeviceState.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\3g\Src\Form.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\LIB\3G\Src\Helper.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\3g\Src\Math3D.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\3g\Src\ShadowProj.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\3g\Src\ShadowStencil.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\3g\Src\stdafx.h">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\3g\Src\Texture.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\3g\Src\VectorObject.hpp">
+      <Filter>3g</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\Base.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\BaseDef.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\CBlockPar.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\CBuf.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\CDWORDMap.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\CException.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\CFile.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\CHeap.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\CMain.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\CRC32.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\LIB\Base\Src\CReminder.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\CStorage.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\CStr.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\CWStr.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\Mem.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\Pack.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\Registry.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Base\Src\stdafx.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\LIB\Base\Src\Tracer.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Common.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DevConsole.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixCamera.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixConfig.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixCursor.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixDebugInfo.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixFlyer.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixFormGame.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixGame.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixGameDll.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixInstantDraw.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixLoadProgress.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixLogic.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixMap.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixMapGroup.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixMapStatic.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixMapTexture.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixMinimap.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixMultiSelection.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixObject.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixObjectBuilding.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixObjectCannon.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixObjectRobot.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixProgressBar.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixRenderPipeline.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixRobot.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixShadowManager.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixSide.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixSkinManager.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixSoundManager.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixTerSurface.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixTransition.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixWater.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Resource.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\StringConstants.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixAIGroup.h">
+      <Filter>Main\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEnvironment.h">
+      <Filter>Main\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixLogicSlot.h">
+      <Filter>Main\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixRoadNetwork.hpp">
+      <Filter>Main\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixRule.h">
+      <Filter>Main\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixState.h">
+      <Filter>Main\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixTactics.h">
+      <Filter>Main\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffect.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectBigBoom.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectBillboard.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectDust.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectElevatorField.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectExplosion.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectFirePlasma.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectFlame.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectKonus.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectLandscapeSpot.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectLightening.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectMoveTo.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectMovingObject.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectPath.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectPointLight.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectRepair.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectSelection.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectShleif.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectSmokeAndFire.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectWeapon.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixEffectZahvat.hpp">
+      <Filter>Main\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CAnimation.h">
+      <Filter>Main\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CConstructor.h">
+      <Filter>Main\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CCounter.h">
+      <Filter>Main\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CHistory.h">
+      <Filter>Main\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CIFaceButton.h">
+      <Filter>Main\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CIFaceElement.h">
+      <Filter>Main\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CIFaceImage.h">
+      <Filter>Main\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CIFaceMenu.h">
+      <Filter>Main\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CIFaceStatic.h">
+      <Filter>Main\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CInterface.h">
+      <Filter>Main\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Interface.h">
+      <Filter>Main\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixHint.hpp">
+      <Filter>Main\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Bitmap\Src\Bitmap.hpp">
+      <Filter>Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Bitmap\Src\BitmapDef.hpp">
+      <Filter>Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Bitmap\Src\CBitmap.hpp">
+      <Filter>Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Lib\Bitmap\Src\stdafx.h">
+      <Filter>Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\LIB\DebugMsg\Src\DebugMsg.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\LIB\DebugMsg\Src\Main.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\LIB\DebugMsg\Src\StdAfx.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MatrixSampleStateManager.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\MatrixGame.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\MatrixGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\Lib\Bitmap\Src\asharpen.asm">
+      <Filter>Bitmap</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

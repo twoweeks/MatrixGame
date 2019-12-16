@@ -1,0 +1,21 @@
+Block3 {
+	Block31 {}
+	
+	P1=Z1
+	P2=my1 	// Com 3
+	P2=z3	 // Com 4
+	P2=z4
+	P2=z5	// Com 5
+	P3=z6// Com 6
+	asd
+}
+
+Block4 -sort {
+	Block41 {
+		Block411 {}
+	}
+	Block42 {}
+}
+
+Block1 {} // Com 1
+Block2 {} // Com 2

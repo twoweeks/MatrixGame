@@ -1,0 +1,50 @@
+﻿Build started 11.06.2012 22:31:01.
+     1>Project "C:\!work\robots\LIB\ZLIB\Lib\ZLIB.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\ZLIB.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\ZLIB.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /MT /Zp1 /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\main.cpp
+         main.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /MT /Zp1 /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\Zlib\adler32.c ..\Zlib\compress.c ..\Zlib\crc32.c ..\Zlib\deflate.c ..\Zlib\gzio.c ..\Zlib\infblock.c ..\Zlib\infcodes.c ..\Zlib\inffast.c ..\Zlib\inflate.c ..\Zlib\inftrees.c ..\Zlib\infutil.c ..\Zlib\trees.c ..\Zlib\uncompr.c ..\Zlib\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzio.c
+         infblock.c
+         infcodes.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         infutil.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\ZLIB.lib" /NOLOGO Release\main.obj
+         Release\adler32.obj
+         Release\compress.obj
+         Release\crc32.obj
+         Release\deflate.obj
+         Release\gzio.obj
+         Release\infblock.obj
+         Release\infcodes.obj
+         Release\inffast.obj
+         Release\inflate.obj
+         Release\inftrees.obj
+         Release\infutil.obj
+         Release\trees.obj
+         Release\uncompr.obj
+         Release\zutil.obj
+         ZLIB.vcxproj -> C:\!work\robots\LIB\ZLIB\Lib\..\ZLIB.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\ZLIB.unsuccessfulbuild".
+         Touching "Release\ZLIB.lastbuildstate".
+     1>Done Building Project "C:\!work\robots\LIB\ZLIB\Lib\ZLIB.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.21

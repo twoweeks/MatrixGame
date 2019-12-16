@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxExp", "MaxExp.vcproj", "{884D5E32-5753-4E39-BADB-24546773A510}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectUniqueName0 = MaxExp.vcproj
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {1D9F48BE-9782-4353-AA8A-CC41841D2F96}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{884D5E32-5753-4E39-BADB-24546773A510}.Debug.ActiveCfg = Debug|Win32
+		{884D5E32-5753-4E39-BADB-24546773A510}.Debug.Build.0 = Debug|Win32
+		{884D5E32-5753-4E39-BADB-24546773A510}.Release.ActiveCfg = Release|Win32
+		{884D5E32-5753-4E39-BADB-24546773A510}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
