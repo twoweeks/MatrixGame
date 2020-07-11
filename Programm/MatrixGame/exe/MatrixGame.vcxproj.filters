@@ -240,6 +240,8 @@
     </ClCompile>
     <ClCompile Include="..\src\MatrixRoadNetwork.cpp">
       <Filter>Main\Logic</Filter>
+    
+    ...
     </ClCompile>
     <ClCompile Include="..\src\MatrixRule.cpp">
       <Filter>Main\Logic</Filter>
