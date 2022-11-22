@@ -1,6 +1,8 @@
 Здесь находятся исходники, которые были выложены вместе с публичным релизом движка.
 
-Активная разработка ведётся в этом репозитории: [murgesku/MatrixGame](https://github.com/murgesku/MatrixGame).
+Активная разработка ведётся в этом репозитории: [vladislavrv/MatrixGame](https://github.com/vladislavrv/MatrixGame).
+
+Другие форки: [ссылка 1](https://github.com/murgesku/MatrixGame/network), [ссылка 2](https://github.com/twoweeks/MatrixGame/network).
 
 ---
 
